@@ -1,2 +1,44 @@
+body {
+    background-color: #141414;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 50px;
+}
 
-/* Your CSS Code here. */
+.movie-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #222;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.moviePic {
+    display: block;
+    margin: 0 auto 20px auto;
+    height: 450px;
+    width: 300px;
+    opacity: 0.9;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.moviePic:hover {
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+.movieDetail {
+    position: relative;
+    top: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
